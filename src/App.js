@@ -15,7 +15,7 @@ import ContaminacionLuminicaPage from './pages/ContaminacionLuminicaPage';
 
 const App = () => {
     return (
-      <Router basename={process.env.REACT_APP_URI}>
+      <Router basename={"https://fabifatal.github.io/tierra-de-estrellas-demo"}>
       <BrowserRouter>∫
       <Routes>
         <Route path="/" element={<InicioPages/>}></Route>
@@ -26,13 +26,8 @@ const App = () => {
         <Route path="/JuegoCont" element={<JuegoContPage />}></Route>
         <Route path="/InicioSesion" element={<InicioSesionPages />}></Route>
         <Route path="/registrate" element={<RegistratePage />}></Route>
-
         <Route path="/Historia" element={<HistoriaPages/>}></Route>
-
-
         <Route path="/ContaminacionLuminica" element={<ContaminacionLuminicaPage/>}></Route>
-      
-
       </Routes>
       </BrowserRouter>
       </Router>
