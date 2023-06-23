@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tierra-de-estrellas-demo/static/css/main.812bed53.css",
-    "main.js": "/tierra-de-estrellas-demo/static/js/main.ccafaafa.js",
+    "main.js": "/tierra-de-estrellas-demo/static/js/main.3ff65fb8.js",
     "static/media/nosotross.jpg": "/tierra-de-estrellas-demo/static/media/nosotross.f3b338b7cf9425624213.jpg",
     "static/media/mapa grid.png": "/tierra-de-estrellas-demo/static/media/mapa grid.6144e95343fe3dfd92b6.png",
     "static/media/noticias.jpeg": "/tierra-de-estrellas-demo/static/media/noticias.9428695ddd8bf482ff30.jpeg",
@@ -67,10 +67,10 @@
     "static/media/vision.svg": "/tierra-de-estrellas-demo/static/media/vision.4c27c02bd9050b6be366d4c5072532b7.svg",
     "static/media/facebook.svg": "/tierra-de-estrellas-demo/static/media/facebook.a9583c98b002f1f894cf6431ca76b70e.svg",
     "main.812bed53.css.map": "/tierra-de-estrellas-demo/static/css/main.812bed53.css.map",
-    "main.ccafaafa.js.map": "/tierra-de-estrellas-demo/static/js/main.ccafaafa.js.map"
+    "main.3ff65fb8.js.map": "/tierra-de-estrellas-demo/static/js/main.3ff65fb8.js.map"
   },
   "entrypoints": [
     "static/css/main.812bed53.css",
-    "static/js/main.ccafaafa.js"
+    "static/js/main.3ff65fb8.js"
   ]
 }
