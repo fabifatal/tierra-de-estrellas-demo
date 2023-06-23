@@ -1,0 +1,13 @@
+.contDialogo {
+  display: flex;
+  padding: 1vh;
+}
+
+.contDialogo p {
+  margin: 0;
+  font-size: 0.83rem;
+}
+
+/* @media all and (max-height: 600px) {
+  
+} */

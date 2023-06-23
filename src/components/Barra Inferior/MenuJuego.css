@@ -1,0 +1,21 @@
+.contBarra {
+  display: flex;
+  align-items: center;
+  padding: 2vh;
+}
+
+.CardJuego {
+  border: 0.1em solid white;
+  border-radius: 2em;
+}
+
+.fondoMenu {
+  background: rgb(0, 0, 0,0.5)
+}
+
+/* @media all and (max-height: 600px){
+  .contBarra {
+    padding: 1.5vh;
+    font-size: 0.83rem;
+  }
+} */

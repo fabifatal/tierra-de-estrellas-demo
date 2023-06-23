@@ -1,0 +1,10 @@
+.contObjetivo {
+  display: flex;
+  align-items: center;
+  padding: 1vh;
+  text-align:start;
+}
+
+.imgObjetivo {
+  height: 13vh;
+}

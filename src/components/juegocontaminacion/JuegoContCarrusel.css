@@ -1,0 +1,8 @@
+.contCarrusel {
+    display: flex;
+    text-align: center;
+}
+
+.contCarrusel img{
+height: 25vh;
+}

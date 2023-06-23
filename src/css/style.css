@@ -1,0 +1,434 @@
+/*------ Traemos la fuente de letra que usaremos ------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap");
+
+/*------------- Inicio Encabezado inicio -----------------------------------------------*/
+
+.encabezado {
+    width: 100%;
+    height: 70vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-template-rows: 100px 1fr;
+    color: rgb(255, 240, 250);
+}
+
+.encabezado::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #00000020 0%, #00000017 100%),
+        url("../imagenes/inicio.jpeg");
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
+/*------------- Fin Encabezado inicio -----------------------------------------------*/
+
+/*------------- Inicio Encabezado Nosotros -----------------------------------------------*/
+.encabezadoNosotros {
+    width: 100%;
+    height: 70vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-template-rows: 100px 1fr;
+    color: rgb(255, 240, 250);
+}
+
+.encabezadoNosotros::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #00000020 0%, #00000017 100%),
+        url("../imagenes/nosotross.jpg");
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 100%, 50% 62%, 0 100%, 0 0);
+    z-index: -1;
+}
+
+/*------------- Fin Encabezado Nosotros -----------------------------------------------*/
+
+/*------------- Inicio Encabezado Noticias -----------------------------------------------*/
+.encabezadoNoticias {
+    width: 100%;
+    height: 70vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-template-rows: 100px 1fr;
+    color: rgb(255, 240, 250);
+}
+
+.encabezadoNoticias::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #00000020 0%, #00000017 100%),
+        url("../imagenes/noticias.jpeg");
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+/*------------- Fin Encabezado Noticias -----------------------------------------------*/
+
+/*------------- Inicio Encabezado Astronomia -----------------------------------------------*/
+.encabezadoAstronomia {
+    width: 100%;
+    height: 70vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-template-rows: 100px 1fr;
+    color: rgb(255, 240, 250);
+}
+
+.encabezadoAstronomia::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #00000020 0%, #00000017 100%),
+        url("../imagenes/concept.jpg");
+    background-size: cover;
+    z-index: -1;
+}
+/*------------- Fin Encabezado Astronomia -----------------------------------------------*/
+
+/*------------- Inicio Encabezado Contaminacion Luminica -----------------------------------*/
+.encabezadoContaminacion {
+    width: 100%;
+    height: 70vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-template-rows: 100px 1fr;
+    color: rgb(255, 240, 250);
+}
+
+.encabezadoContaminacion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #00000020 0%, #00000017 100%),
+        url("../imagenes/contaminacion-luminica-chile-recomiendo-pirque.jpg");
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
+/*------------- Fin Encabezado contaminacion luminica -----------------------------------------------*/
+
+/*-------------- Inicio Control de lo que esta delante de la imagen encabezado----------------------*/
+
+.encabezado_container {
+    max-width: 800px;
+    display: grid;
+    --padding-container: 0;
+    grid-auto-rows: max-content;
+    align-content: center;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+/*-------------- Fin Control de lo que esta delante de la imagen encabezado----------------------*/
+
+/*-------Inicio Control de lo que esta bajo la imagen encabezado----------*/
+
+.bajoEncabezado {
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.bajoEncabezado_paragraph {
+    line-height: 2;
+}
+
+.comparacion {
+    padding-top: 40px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    
+}
+
+.imgComparacion {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    margin: 0 auto;
+}
+
+.imgBajoEncabezado {
+    width: 300px;
+}
+
+/*-------Fin Control de lo que esta bajo la imagen encabezado----------------*/
+
+/*------------- Inicio Carrucel astronomos y nosotros -------------------------*/
+
+.testimony{
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+.testimony__img{
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 30% 50%;
+} 
+
+.testimony__course{
+    background-color: royalblue;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+
+/*------------- Fin carrucel astronomos y nosotros-------------------------*/
+
+
+/*-------------- Inicio pie de pagina----------------------------------*/
+
+.piefinal {
+    background-color: #1D293F;
+}
+
+.piefinal_container {
+    --padding-container: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.piefinal_copyright {
+    font-weight: 300;
+}
+
+.piefinal_icons {
+    margin-bottom: 10px;
+}
+
+.piefinal_img {
+    width: 30px;
+}
+
+/*-------------- Fin pie de pagina----------------------------------*/
+
+/*---------------- Inicio Arreglo card noticias----------------------------*/
+
+.card-img-top{
+    width: 100%;
+    height: 350px;
+}
+/*----------------Fin Arreglo card noticias----------------------------*/
+
+ 
+/*---------------------Inicio inicias sesion----------------------------------------*/
+
+
+.box{
+    background-image: url("../imagenes/iniciosesionre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;   
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.iniciosesion{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+header {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+
+}
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #f5eded;
+    padding: 0 0 0 45px;
+    background: rgba(255,255,255,0.1);
+}
+
+i{
+    position: relative;
+    top: -35px;
+    left: 17px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:hover{
+    box-shadow: 1px 5px 7 1px rgba(0,0,0,0.2);
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.left{
+    display: flex;
+}
+
+label  a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+/*---------------------Fin  inicias sesion----------------------------------------*/
+
+/*----------------------------------Inicio registro -------------------------------*/
+
+.form-register{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-block-end: 100px; /*me da espacio paraabajo*/
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom:16px;
+    border: 1px solid #1F53c5;
+    font-size: 18px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.form-register .botons{
+    width: 100%;
+    background: #f83a00;
+    border: none;
+    padding: 12px;
+    color: #fcfcfc;
+    margin: 16px 0;
+    font-size: 16px;
+}
+/*---------------------------------Fin Inicio registro -------------------------------*/
+
+
+.imagenCa {
+    width: 60vh;
+    height: 90vh;
+}
+
+.colorCa{
+    background-color: #28878cd7;
+   
+}
+.colorL{
+   background-color:  #1c585ca0;
+}

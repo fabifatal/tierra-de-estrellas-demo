@@ -1,0 +1,66 @@
+.contMapa {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.tamanioMapa {
+  height: 78vh;
+  width: 100%;
+}
+
+@keyframes opacityChanger {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes vanishStars {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.contaminacionlum {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 177, 31, 0.1) 0%,
+    transparent 100%
+  );
+  z-index: 1;
+  opacity: 0;
+}
+
+.contaminar {
+  animation: opacityChanger 30s ease-out 0s 1 normal forwards;
+}
+
+.contImgMapa {
+  display: flex;
+  max-width: 100%;
+  max-height: 70vh;
+  margin-left: 0.75rem;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.imgMapa {
+  /* max-width: 100%; */
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+  flex: none;
+}
+
+.desvanecer {
+  animation: vanishStars 30s ease-out 0s 1 normal forwards;
+}
