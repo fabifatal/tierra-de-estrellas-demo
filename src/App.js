@@ -15,6 +15,7 @@ import ContaminacionLuminicaPage from './pages/ContaminacionLuminicaPage';
 
 const App = () => {
     return (
+      <Router basename={process.env.REACT_APP_URI}>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<InicioPages/>}></Route>
@@ -34,6 +35,7 @@ const App = () => {
 
       </Routes>
       </BrowserRouter>
+      </Router>
     );
   };
   
