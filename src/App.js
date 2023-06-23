@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 import InicioPages from './pages/InicioPages'
 import NosotrosPages from './pages/NosotrosPages';
 import NoticiasPages from './pages/NoticiasPages';
@@ -16,7 +16,7 @@ import ContaminacionLuminicaPage from './pages/ContaminacionLuminicaPage';
 const App = () => {
     return (
       <Router basename={process.env.REACT_APP_URI}>
-      <BrowserRouter>
+      <BrowserRouter>∫
       <Routes>
         <Route path="/" element={<InicioPages/>}></Route>
         <Route path="/Nosotros" element={<NosotrosPages/>}></Route>
