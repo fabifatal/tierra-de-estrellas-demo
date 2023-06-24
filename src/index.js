@@ -4,7 +4,16 @@ import App from "./App";
 import './scss/custom.scss'
 import 'bootstrap/dist/js/bootstrap.js';
 import './css/style.css';
+import { createHashRouter } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
 
 
 
-ReactDOM.render(<App/>, document.querySelector('#root'));
+const router = createHashRouter ([
+    {
+      path: "/*",
+      element: <App />,
+    }
+  ]);
+
+ReactDOM.render(<RouterProvider router={router} />, document.querySelector('#root'));

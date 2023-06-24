@@ -15,8 +15,7 @@ import ContaminacionLuminicaPage from './pages/ContaminacionLuminicaPage';
 
 const App = () => {
     return (
-      <Router basename={"https://fabifatal.github.io/tierra-de-estrellas-demo"}>
-      <BrowserRouter>∫
+      //<Router basename={"https://fabifatal.github.io/tierra-de-estrellas-demo"}>
       <Routes>
         <Route path="/" element={<InicioPages/>}></Route>
         <Route path="/Nosotros" element={<NosotrosPages/>}></Route>
@@ -29,8 +28,7 @@ const App = () => {
         <Route path="/Historia" element={<HistoriaPages/>}></Route>
         <Route path="/ContaminacionLuminica" element={<ContaminacionLuminicaPage/>}></Route>
       </Routes>
-      </BrowserRouter>
-      </Router>
+      //</Router>
     );
   };
   
